@@ -8,10 +8,10 @@
 docker run -p 27017:27017 -d pedrualves/mongodb-mongohacker
 
 ## access container without name
-docke exec -it <id or custom name> mongo
+docker exec -it <id or custom name> mongo
 
 ## create container with name
 docker run --name mongo-maneiro -p 27017:27017 -d pedrualves/mongodb-mongohacker
 
 ## access container with name
-docke exec -it mongo-maneiro mongo
+docker exec -it mongo-maneiro mongo
