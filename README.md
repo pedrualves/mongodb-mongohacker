@@ -1,8 +1,8 @@
-# mongodb-mongohacker
+# MONGODB & MONGOHACKER
 
-## version
-mongodb 3.7.9
-mongohacker 0.0.10
+## versions!
+* mongodb 3.7.9
+* mongohacker 0.0.10
 
 ## to create container without name
 docker run -p 27017:27017 -d pedrualves/mongodb-mongohacker
