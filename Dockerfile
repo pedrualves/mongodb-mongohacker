@@ -1,4 +1,4 @@
-FROM mongo:3.7.9-xenial
+FROM mongo:latest
 
 RUN apt-get update \
  && apt-get install -y git \
