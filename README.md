@@ -2,7 +2,7 @@
 
 ## versions!
 * mongodb:latest (https://hub.docker.com/r/library/mongo/)
-* mongohacker 0.0.10 (https://github.com/TylerBrock/mongo-hacker)
+* mongohacker 0.1.1 (https://github.com/TylerBrock/mongo-hacker)
 
 ## create container without name
 docker run -p 27017:27017 -d pedrualves/mongodb-mongohacker
