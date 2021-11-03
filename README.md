@@ -15,3 +15,8 @@ docker run --name mongo-maneiro -p 27017:27017 -d pedrualves/mongodb-mongohacker
 
 ## access container with name
 docker exec -it mongo-maneiro mongo
+
+## importing dta
+```cli
+docker cp file.json mongo:/tmp/file.json
+docker exec mongo mongoimport -d test -c collection --type json --file /tmp/file.json --jsonArray
