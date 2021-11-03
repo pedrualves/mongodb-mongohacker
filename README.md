@@ -1,7 +1,7 @@
 # MONGODB & MONGOHACKER
 
 ## versions!
-* mongodb 3.7.9-xenial (https://hub.docker.com/r/library/mongo/)
+* mongodb:latest (https://hub.docker.com/r/library/mongo/)
 * mongohacker 0.0.10 (https://github.com/TylerBrock/mongo-hacker)
 
 ## create container without name
